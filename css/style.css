@@ -6,8 +6,52 @@
     --gris-fonce:#666;
     --gris-tres-clair:#F8F8F8;
     --gris-clair:#EEEE;
+
 }
 
-h1 {
-    color: var(--violet-fonce);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    background-color: var(--gris-tres-clair);
+    font-family: ;
+    line-height: 1.6;
+
+}
+
+header {
+    background-color: white;
+    box-shadow: 2px 6px 10px rgba (0, 0 , 0 , 0 , 05)   ;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: 2rm 3rm;
+ 
+    
+}
+header div a {
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--violet-doux);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
