@@ -1,85 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/style.CSS">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Mon portfolio</title>
 </head>
 <body>
-    <header>
-    <div>
-        <a href="">Mon Portofolio</a>
-    </div>
-    </header>
-    <div>
-    <nav>
-    <ul>
-        <li><a href="">Accueil</a></li>
-        <li><a href="">Projet</a></li>
-        <li><a href="">Passion</a></li>
-        <li><a href="">divertissement</a></li>
-        <li><a href="">Contact</a></li>
-    </div>
-    </nav>
-    </ul>
-       <section>
-          <div>
-             <h1>BONJOUR ,JE SUIS CHRIS</h1>
-             <p>etudiant en L2 et Passionne par le web</p>
-              <a href="">voir mes projets</a>
+    <HEader>
+        <div>
+            <a href="">Mon Portfolio</a>  
+        </div>
+        <nav>
+            <ul>     
+          <li><a href="Index.html"class="active">Accueil</a></li>
+          <li><a href="projet.HTML">projet</a></li>
+          <li><a href="passions.HTML">passions</a></li>
+          <li><a href="Divertissement.HTML">Divertissement</a></li>
+          <li><a href="contact.HTML">contact</a></li>
+            </ul>
+        </nav>
+    </HEader>
+    <Main>
+        <section class= "hero-section">
+            <div>
+                <h1>bonjour, JE SUIS CHRIS </h1>
+                <p>Etudiant en L2 et passionnée par le web</p>
+                <a href="projet.HTML">voir mes projets</a>
+            </div>
+            <div>
+                 <img src="image/1773308787706.jpg" alt="chris" >
+            </div>
+        </section>
         <section>
-          </div>
-         
-         <div>
-             <img src="image/1773308787706.jpg" alt="chris" width="300">
-             <div></div>
-          <section>
-           <section>
-            <h2> A propos de moi</h2>
-                  <p>bonjour ! m'appelle Chris Kaleta Matanda et je suis un etudiant dynamique et motive en
-                        informatique a UDBL.
-                        passionne par le developpement web ,le design, l'intelligence artificielle, et je suis a
-                        la recherche de nouvelles opportunites d'apprentissage et des defis stimulants
-                  <p> au cours de mes etudes ,j'ai developpe des solide competence en programmation .
-         je suis une personne rigoureuse , creative et j'aime travailler en equipe pour atteindre
-        des objetifs communs.
-         Mon objectif est de contribuer a des projets innovents ,trouver un stage ,et maitriser
-         le framework laravel 
-                    </section>
-                    <section>
-                        <h3>mes competence</h3>
-                         <li>CATEGORIES</li>
-                             <li>programmation</li>
-                             <li>design</li>
-                             <li>Langues</li>
-                             <li>outils</li>
-                             <li>Soft</li>
-                         <section>
-                        <ul>
-                        </ul>   
-                         <ul>COMPETENCE
-                             <li>HTML,CSS,Javascript,python</li>
-                             <li>Figma,photoshop(base)</li>
-                             <li>Francais(natif),anglais(fluide)</li>
-                             <li>git vs code ,suit office</li>
-                             <li>Communication,Resolution de problemes,autonomie</li>
-                         </ul>
-                         <ul>NIVEAU
-                             <li>avancé</li>
-                             <li>intermediaire</li>
-                             <li>avancé</li>
-                             <li>avancé</li>
-                             <li>Expert</li>
-                         </ul>
-                        </section>
-                </main>
-                   <footer>
-                    <p>chris. 2026</p>
-                    <img src="image/linkedin.jpg" alt="" width="30">  
-                    <img src="image/github.jpg"   alt="" width="30">
-                    <img src="image/x.jpg"  alt="" width="30">
-                   </footer>
-                </body>
-                </html>
+            <h2>A propos de Moi</h2>
+            <p>
+                 Bonjour! je m'appelle Chris Kaleta Matanda et je suis un étudiant  dynamique et motivée en informatique à l'UDBL  passionnée par le développement web, l'intelligence artificielle,et le design graphique, je suis constamment à la recherche de nouvelle opportunités d'apprentisasge et de défis stimulants.  
+            </p>
+            <p>
+                 Au cours de mes études, j'ai développé de solides compétences en programmation. je suis une personne rigoureuse, créatif et j'aime travailler en equiper pour atteindre des objectifs communs.
+                mon objectif est de contribuer à des projes innovants, trouver un stage, et maitriser le Framework laravel.
+             </p>
+        </section>
+        <section>
+             <h2>Mes compétences</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>catégorie</th>
+          <th>compétences</th>
+          <th>niveau</th>
+          </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>programmation</td>
+              <td>HTML, css, javascript, python</td>
+              <td>Avancé</td>
+            </tr>
+            <tr>
+              <td>Design</td>
+              <td>Figma, photoshop (bases)</td>
+              <td>Intermédiaire</td>
+            </tr>
+            <tr>
+              <td>langues</td>
+              <td>Français(natif), Anglais(fluide)</td>
+              <td>Avancé</td>
+            </tr>
+            <tr>
+              <td>outils</td>
+              <td>Git, VS code, suite office</td>
+              <td>Avancé</td>
+            </tr>
+            <tr>
+              <td>soft skills</td>
+              <td>communication, Resolution de problèmes, Autonomie</td>
+              <td>Expert</td>
+            </tr>
+             </tbody>
+      </Table>
+        </section>
+    </Main>
+    <Footer>
+       <p>&copy; 2026 chris. tous droits réservés.</p>
+    <div>
+     <img src="image/linkedin.jpg" alt="" width="30">
+                    <img src="image/github.jpg" alt="" width="30">
+                    <img src="image/x.jpg" alt="" width="30">
+      </div>
+    </Footer>
+</body>
+</html>
+
+
